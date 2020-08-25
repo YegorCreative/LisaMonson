@@ -1,3 +1,8 @@
+@media screen and (min-width: 1024px){
+  .aboutLisa {
+    margin-top: 130px;
+  }
+}
 @media screen and (max-width: 1024px) {
   .sidenav, .openMenu {
     display: block;
@@ -40,7 +45,15 @@
         font-size: 36px;
         margin-left: 50px;
       }
-    
+   
+}
+@media screen and (min-width:767px){
+  .leftSide, .rightSide {
+    width: 50%;
+  }
+  .aboutLisa {
+    flex-flow: nowrap row;
+  }
 }
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}

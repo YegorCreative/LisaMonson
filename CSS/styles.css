@@ -1,5 +1,6 @@
 body {
-    font-family: "Lato", sans-serif;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-family: 'Rouge Script', cursive;
     margin-top: 0;
     margin-left: 0;
     width: 100%;
@@ -37,8 +38,36 @@ body {
         transition: 0.3s;
       
       }
-      .sidenavDesctop a:hover{
+   .sidenavDesctop a:hover{
         color: #f1f1f1;
       }
 
-  
+      .aboutLisa{
+       width: 100%;
+       box-sizing: border-box;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+      background-color: aquamarine;
+      }
+      .leftSide, .rightSide {
+        width: 100%;
+        font-size: 1.2em;
+        margin: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .leftSide p, .rightSide p {
+        font-family: 'Nanum Gothic Coding', monospace;
+        font-weight: 400;
+        line-height: 1.2;
+      }
+      .servicesMain{ 
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        background-color: burlywood;
+      }
