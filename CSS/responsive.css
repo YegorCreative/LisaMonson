@@ -1,6 +1,10 @@
 @media screen and (max-width: 1024px) {
-
-
+  .sidenav, .openMenu {
+    display: block;
+  }
+  .sidenavDesctop {
+    display: none;
+  }
     .sidenav {
         height: 100%;
         width: 0;
