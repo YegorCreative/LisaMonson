@@ -262,6 +262,13 @@ box-shadow: 0px 0px 25px -4px rgba(153,148,153,1);
 .floral img{
   max-width: 1024px;
 }
+.floralTwo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .jasmine h1{
   font-size: 2em;
   text-align: center;
