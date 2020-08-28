@@ -1,6 +1,5 @@
 body {
-  font-family: 'Nanum Gothic Coding', monospace;
-  font-family: 'Rouge Script', cursive;
+  font-family: 'EB Garamond', serif;
     margin-top: 0;
     margin-left: 0;
     width: 100%;
@@ -56,10 +55,13 @@ body {
         color: #01012e;
         text-shadow: 4px 4px #ffff;
         text-align: center;
+        font-family: 'EB Garamond', serif;
+        font-weight: 400;
       }
       .firstBanner h2 {
         font-size: 3.5em;
-        font-family: 'Nanum Gothic Coding', monospace;
+        font-family: 'EB Garamond', serif;
+        font-weight: 400;
         text-shadow: 4px 4px #ffff;
         color: #01012e;
         text-align: center;
