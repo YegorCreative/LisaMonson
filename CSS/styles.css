@@ -19,7 +19,7 @@ body {
   .sidenavDesctop {
     width: 1024px;
     height: 110px;
-    background-color: #7fffd488;
+    background-color: #7fffd4ce;
     display: flex;
     flex-direction: row;
     justify-content: center;
