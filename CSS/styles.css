@@ -100,6 +100,10 @@ body {
         font-size: 1.2em;
         line-height: 1.2;
       }
+      .leftSide {
+        
+        background-repeat: no-repeat;
+      }
       .servicesMain{ 
         width: 100%;
         box-sizing: border-box;
@@ -131,9 +135,7 @@ body {
         padding-right: 20px;
         padding-left: 20px;
         text-align: center;
-        transition: transform 0.9s;
-        background-image: url(../Assets/Dot.png);
-        
+        transition: transform 0.9s; 
       }
       .services:hover {
         background-color: #90ee909c;
