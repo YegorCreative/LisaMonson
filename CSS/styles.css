@@ -1,9 +1,11 @@
 body {
   font-family: 'EB Garamond', serif;
+  font-weight: 400;
     margin-top: 0;
     margin-left: 0;
     width: 100%;
     min-width: 320px;
+    color: #01012e;
   }
   
   .sidenav, .openMenu {
@@ -76,7 +78,7 @@ body {
        margin-left: auto;
        margin-right: auto;
       background-color: #90EE90;
-      border-radius: 15px;
+      
       box-shadow: 0px 0px 15px -4px rgba(153,148,153,1);
       margin-bottom: 1em;
       }
@@ -125,9 +127,11 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        border-radius: 15px;
         box-shadow: 0px 0px 15px -4px rgba(153,148,153,1);
-        font-size: 1.3em;
+        font-size: 1em;
+        padding-right: 20px;
+        padding-left: 20px;
+        text-align: center;
         transition: transform 0.9s;
         background-image: url(../Assets/Dot.png);
         
@@ -138,12 +142,12 @@ body {
       }
 .services a {
   text-decoration: none;
-  color: #191970;
+  color: #01012e;
 }
 .slideShow {
   max-width: 90%;
   margin: 0 auto;
-  background-color: #AFEEEE;
+  background-color: white;
   background-image: url(../Assets/LisaVECTOR.png);
   margin-top: 1.5em;
   padding-top: 2em;
@@ -258,7 +262,7 @@ box-shadow: 0px 0px 25px -4px rgba(153,148,153,1);
 .jasmine {
   width: 100%;
   display: flex;
-  flex-flow: wrap column;
+  flex-flow: wrap row;
   justify-content: center;
   align-items: center;
   
