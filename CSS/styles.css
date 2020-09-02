@@ -144,8 +144,7 @@ body {
         height: 170px;
         background-color: white;
         border: double 7px #006600;
-        margin: 1em;
-        margin-top: 6em;
+        margin-top: 5em;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -159,9 +158,14 @@ body {
         font-family: "Bodoni";
         font-weight: 100;
       }
-      .services img {
-        position: absolute;
-        margin-top: -80%;
+      .flowers {
+       width: 320px;
+       height: 320px;
+       display: flex;
+       flex-flow: column wrap;
+       justify-content: center;
+       align-items: center;
+       margin: 2em;
       }
       .services:hover {
         background-color:#9cd9c296;
