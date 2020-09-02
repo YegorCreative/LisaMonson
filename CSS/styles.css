@@ -1,13 +1,23 @@
 body {
-  font-family: 'EB Garamond', serif;
-  font-weight: 400;
-    margin-top: 0;
-    margin-left: 0;
+    margin: 0;
     width: 100%;
     min-width: 320px;
     color: #01012e;
   }
-  
+  @font-face{
+    font-family:"Bodoni Egypt W01 Thin";
+    src:url("../Fonts/1339722/2f4b75fd-2c8a-4ed8-91fc-dffe70f9579f.woff2") format("woff2"),url("../Fonts/1339722/b50e1e75-222f-45bf-a85a-788dea663307.woff") format("woff");
+}
+@font-face {
+  font-family: "Otto";
+  src: url("../Fonts/Otto.ttf") format("ttf");
+}
+  /* 
+  colors 
+  #006600 
+   #ff9999
+   #9CD9C2
+   */
   .sidenav, .openMenu {
     display: none;
   }
@@ -19,7 +29,8 @@ body {
   .sidenavDesctop {
     width: 100%;
     height: 110px;
-    background-color: #7fffd4ce;
+    background-color: white;
+    border-block-end: double #006600 7px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -48,7 +59,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #8DD4BD;
+        background-color: white;
         background-image: url(../Assets/LisaVECTOR.png);
       }
       .firstBanner h1 {
@@ -56,13 +67,12 @@ body {
         color: #01012e;
         text-shadow: 4px 4px #ffff;
         text-align: center;
-        font-family: 'EB Garamond', serif;
-        font-weight: 400;
+        font-family:"Bodoni Egypt W01 Thin";
+       
       }
       .firstBanner h2 {
         font-size: 3.5em;
-        font-family: 'EB Garamond', serif;
-        font-weight: 400;
+        font-family:"Bodoni Egypt W01 Thin";
         text-shadow: 4px 4px #ffff;
         color: #01012e;
         text-align: center;
@@ -76,7 +86,8 @@ body {
        align-items: center;
        margin-left: auto;
        margin-right: auto;
-      background-color: #8e993ea6;
+      background-color: white;
+      border: double 7px #006600;
       
       
       box-shadow: 0px 0px 15px -4px rgba(153,148,153,1);
@@ -84,7 +95,7 @@ body {
       }
       .leftSide, .rightSide {
         width: 100%;
-        font-size: 1.2em;
+        font-size: 2.3em;
         margin: 1em;
         display: flex;
         justify-content: center;
@@ -92,8 +103,7 @@ body {
         flex-direction: column;
         padding-left: 2em;
         padding-right: 2em;
-        font-family: 'EB Garamond', serif;
-        font-weight: 400;
+        font-family:"Otto";
       }
       .leftSide p, .rightSide p {
         
@@ -125,7 +135,8 @@ body {
       .services {
         width: 310px;
         height: 170px;
-        background-color: #8DD4BD;
+        background-color: white;
+        border: double 7px #006600;
         margin: 1em;
         display: flex;
         justify-content: center;
@@ -136,6 +147,7 @@ body {
         padding-left: 20px;
         text-align: center;
         transition: transform 0.9s; 
+        font-family:"Bodoni Egypt W01 Thin";
       }
       .services:hover {
         background-color: #90ee909c;
@@ -262,23 +274,19 @@ box-shadow: 0px 0px 25px -4px rgba(153,148,153,1);
 
 .jasmine {
   width: 100%;
+  display: flex;
   justify-content: center;
   align-items: center;
-display: flex;
-justify-content: center;
- 
   margin-top: 2em;
 
 }
-.floral img{
-  width: 100%;
-  
-}
+
 /* Footer infomration goes heere*/
 .footerMain {
   width: 100%;
   
-  background-color: #87cefa6c;
+  background-color: white;
+  border-block-start: 7px double #006600;
   margin-top: 1em;
   display: flex;
   flex-wrap: wrap;
