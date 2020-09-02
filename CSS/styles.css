@@ -362,7 +362,7 @@ box-shadow: 0px 0px 25px -4px rgba(153,148,153,1);
   margin-bottom: 3em;
   font-size: 1.2em;
   font-family: "Bodoni";
-  
+
   box-shadow: 0px 0px 25px -4px rgba(153,148,153,1);
   
 }
@@ -380,8 +380,8 @@ box-shadow: 0px 0px 25px -4px rgba(153,148,153,1);
   font-size: 1.5em;
 }
 .rightSide1{
-  background-color: #ff9999;
-  color: white;
+  background-color: #ff99994f;
+  
 }
 .leftSide1 {
   
@@ -390,4 +390,37 @@ box-shadow: 0px 0px 25px -4px rgba(153,148,153,1);
   margin-left: 2em;
   margin-right: 2em;
   border: #006600 7px double;
+}
+
+/* Contact page*/
+#myVideo{
+  position: relative;
+  width: 100vw;
+}
+.contactMe {
+  width: 100%;
+}
+.contactMe a {
+  text-decoration: none;
+font-size: 2em;
+color: #01012e;
+
+}
+.linksL{
+  width: 100%;
+  display: flex;
+  justify-content: left;
+ align-items: center;
+ position: absolute;
+top: 35%;
+margin-left: 100px;
+}
+.linksL1 {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+ align-items: center;
+ position: absolute;
+top: 45%;
+margin-left: 100px;
 }
