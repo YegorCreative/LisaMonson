@@ -7,7 +7,8 @@ body {
   @font-face{
     font-family:"Bodoni Egypt W01 Thin";
     src:url("../Fonts/1339722/2f4b75fd-2c8a-4ed8-91fc-dffe70f9579f.woff2") format("woff2"),url("../Fonts/1339722/b50e1e75-222f-45bf-a85a-788dea663307.woff") format("woff");
-}
+  font-weight: normal;
+  }
 @font-face {
   font-family: "Otto";
   src: url("../Fonts/Otto.ttf") format("ttf");
@@ -316,7 +317,7 @@ box-shadow: 0px 0px 25px -4px rgba(153,148,153,1);
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #87cefaad;
+  background-color: #00660096;
   color: white;
   cursor: pointer;
   padding: 15px;
