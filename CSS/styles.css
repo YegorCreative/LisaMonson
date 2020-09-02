@@ -349,3 +349,44 @@ box-shadow: 0px 0px 25px -4px rgba(153,148,153,1);
 
 
 /* Services page*/ 
+
+#staging, #interior, #personal {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: #006600 7px double;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  font-size: 1.2em;
+  font-family: "Bodoni";
+  background-image: url(../Assets/lml.png);
+  box-shadow: 0px 0px 25px -4px rgba(153,148,153,1);
+  
+}
+.leftSide1, .rightSide1 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 2em;
+  
+}
+.rightSide1 p,.rightSide1 li {
+  font-size: 1.5em;
+}
+.rightSide1{
+  background-color: #ff9999;
+  color: white;
+}
+.leftSide1 {
+  text-align: center;
+  background-color: #9CD9C2;
+  margin-left: 2em;
+  margin-right: 2em;
+  border: #006600 7px double;
+}
