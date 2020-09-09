@@ -106,7 +106,7 @@ body {
       }
       .leftSide, .rightSide {
         width: 100%;
-        font-size: 2.3em;
+        font-size: 1.2em;
         margin: 1em;
         display: flex;
         justify-content: center;
@@ -395,6 +395,7 @@ box-shadow: 0px 0px 25px -4px rgba(153,148,153,1);
   margin-right: 2em;
   border: #006600 7px double;
 }
+
 
 /* Contact page*/
 #myVideo{
