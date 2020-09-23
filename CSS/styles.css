@@ -4,9 +4,13 @@
 font-weight: normal;
 }
 @font-face {
-font-family: "Otto";
-src: url("../Fonts/Otto.ttf") format("ttf");
+font-family: "Gotham";
+src: url("../Fonts/WEB/HomepageBaukasten-Book.woff") format("woff"),url("../Fonts/WEB/HomepageBaukasten-Book.woff2") format("woff2");
 }
+@font-face {
+  font-family: "Lilly";
+  src: url("../Fonts/Lilly.ttf") format("ttf");
+  }
 /*
 This CSS resource incorporates links to font software which is the valuable copyrighted property of Monotype and/or its suppliers. You may not attempt to copy, install, redistribute, convert, modify or reverse engineer this font software. Please contact Monotype with any questions regarding Web Fonts: http://www.fonts.com
 */
@@ -80,11 +84,11 @@ body {
         text-shadow: 4px 4px #ffff;
         text-align: center;
         font-family:"Bodoni";
-       
+       padding-top: 20px;
       }
       .firstBanner h2 {
         font-size: 2em;
-        font-family:"Bodoni";
+        font-family:"Gotham";
         text-shadow: 4px 4px #ffff;
         color: #01012e;
         text-align: center;
@@ -115,7 +119,7 @@ body {
         flex-direction: column;
         padding-left: 2em;
         padding-right: 2em;
-        font-family:"Otto";
+        font-family:"Lilly";
         line-height: 0.8em;
       }
       .leftSide p, .rightSide p {
