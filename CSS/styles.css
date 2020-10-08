@@ -72,7 +72,7 @@ body {
         justify-content: center;
         align-items: center;
         background-color: #FFFAF0;
-        background-image: url(../Assets/linenF.png);
+        background-image: url(../Assets/linen.png);
         line-height: 0.9em;
         padding-bottom: 2em;
       }
@@ -137,7 +137,7 @@ body {
         font-size: 1.5em;
       }
       .leftSide {
-        
+        background-image: url("../Assets/NewFloralPattern.png");
         background-repeat: no-repeat;
       }
       .myLinks{ 
@@ -149,7 +149,7 @@ body {
         background-color: white;
         align-items: center;
         font-family: "Bodoni";
-        background-image: url("../Assets/linenF.png");
+        background-image: url("../Assets/linen.png");
         padding-top: 3em;
         padding-bottom: 3em;
       }
@@ -190,7 +190,9 @@ body {
   max-width: 90%;
   margin: 0 auto;
   background-color: #FFFAF0;
-  background-image: url(../Assets/linenF.png);
+  background-image: url(../Assets/linen.png);background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-top: 5em;
   border: double 7px #7d8f29;
   padding-top: 2em;
@@ -380,6 +382,11 @@ box-shadow: 0px 0px 25px -4px rgba(153,148,153,1);
 
   box-shadow: 0px 0px 25px -4px rgba(153,148,153,1);
   
+}
+.servicesAbout {
+  max-width: 1024px;
+  text-align: center;
+  margin: 0 auto;
 }
 .leftSide1, .rightSide1 {
   width: 50%;
