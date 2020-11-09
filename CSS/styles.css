@@ -19,6 +19,7 @@ body {
     width: 100%;
     min-width: 320px;
     color: black;
+    font-family: "Bodoni";
   }
 
   /* 
@@ -28,6 +29,8 @@ body {
    #9CD9C2
    #7d8f29
    #FFFAF0
+   #dfecef
+   #36454F
    */
   .sidenav, .openMenu {
     display: none;
@@ -40,7 +43,7 @@ body {
   .sidenavDesctop {
     width: 100%;
     height: 110px;
-    background-color: white;
+    background-color: #ffff;
     border-block-end: double #7d8f29 7px;
     display: flex;
     flex-direction: row;
@@ -71,13 +74,21 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #FFFAF0;
-        background-image: url(../Assets/linen.png);
+        background-color: #dfecef;
+        /*background-image: url(../Assets/linen.png);*/
         line-height: 0.9em;
         padding-bottom: 2em;
       }
       .firstBanner img {
         margin-top: 2em;
+      }
+      .whiteBox {
+        margin-top: 25px;
+        width: 95%;
+        display: flex;
+        flex-flow: wrap column;
+        align-items: center;
+        background-color:#dfecef;
       }
       .firstBanner h1 {
         font-size: 5em;
@@ -94,11 +105,20 @@ body {
         color: black;
         text-align: center;
       }
+      .oneColor{
+        width: 100%;
+        background-color: #dfecef;
+        margin-top: 0;
+        position: relative;
+        padding-bottom: 30px;
+      }
       .stripes {
-        widows: 100%;
+        width: 100%;
+        margin: 0 auto;
         padding-top: 3em;
         padding-bottom: 3em;
-        background-image: url("../Assets/MC-029.png");
+        background-color: #dfecef;
+        /*background-image: url("../Assets/MC-029.png");*/
       }
       .aboutLisa{
        width: 90%;
@@ -110,7 +130,7 @@ body {
        margin-left: auto;
        margin-right: auto;
       background-color: white;
-      border: double 7px #7d8f29;
+      border: solid 20px #7d8f29;
       box-shadow: 0px 0px 15px -4px rgba(153,148,153,1);
       margin-bottom: 1em;
       }
@@ -131,13 +151,15 @@ body {
       .leftSide p, .rightSide p {
         
         font-size: 1.1em;
-        line-height: 1.2;
+        line-height: 1.8;
+        font-family: "Bodoni";
       }
       .rightSide h1 {
         font-size: 1.5em;
+        font-family: "Bodoni";
       }
       .leftSide {
-        background-image: url("../Assets/NewFloralPattern.png");
+       /* background-image: url("../Assets/NewFloralPattern.png");*/
         background-repeat: no-repeat;
       }
       .myLinks{ 
@@ -146,10 +168,10 @@ body {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        background-color: white;
+        background-color: #dfecef;
         align-items: center;
         font-family: "Bodoni";
-        background-image: url("../Assets/linen.png");
+        /*background-image: url("../Assets/linen.png");*/
         padding-top: 3em;
         padding-bottom: 3em;
       }
@@ -159,9 +181,9 @@ body {
         position: relative;
         width: 250px;
         height: 140px;
-        background-color: white;
-        border: double 7px #346892;
-        color: #346892;
+        background-color:  #ffff;
+        border: solid 7px #7d8f29;
+        color: #36454F;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -172,24 +194,24 @@ body {
         padding-left: 20px;
         text-align: center;
         transition: transform 0.9s; 
-        font-family: "Gotham";
+        font-family: "Bodoni";
         font-weight: 100;
         
       }
     
       .services:hover {
-        background-color:#34689280;
+        background-color:#7c8f2960;
         transform: scale(1.1);
-        color: white;
+        color: #7d8f29;
       }
 .services a {
   text-decoration: none;
-  color: #346892;
+  color: #36454F;
 }
 .slideShow {
   max-width: 90%;
   margin: 0 auto;
-  background-color: #FFFAF0;
+  background-color: #dfecef;
   background-image: url(../Assets/linen.png);background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -216,6 +238,7 @@ box-shadow: 0px 0px 25px -4px rgba(153,148,153,1);
   max-width: 1000px;
   position: relative;
   margin: auto;
+ 
 }
 
 /* Next & previous buttons */
@@ -379,14 +402,20 @@ box-shadow: 0px 0px 25px -4px rgba(153,148,153,1);
   margin-bottom: 3em;
   font-size: 1.2em;
   font-family: "Gotham";
-
+  background-color:#dfecef;
   box-shadow: 0px 0px 25px -4px rgba(153,148,153,1);
   
+}
+.servicesAbout1 {
+  width: 100%;
+  background-color: #dfecef;
+  margin:0;
 }
 .servicesAbout {
   max-width: 1024px;
   text-align: center;
   margin: 0 auto;
+  
 }
 .Letters {
   width: 100%;
@@ -403,13 +432,16 @@ box-shadow: 0px 0px 25px -4px rgba(153,148,153,1);
   flex-direction: column;
   box-sizing: border-box;
   padding: 2em;
+  font-family: "Bodoni";
   
 }
 .rightSide1 p,.rightSide1 li {
   font-size: 1.5em;
+  
 }
 .rightSide1{
-  background-color: #FFFAF0;
+  background-color:#dfecef;
+  
   
 }
 .leftSide1 {
