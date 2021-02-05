@@ -473,6 +473,7 @@ color: black;
  position: absolute;
 top: 35%;
 margin-left: 100px;
+box-sizing: border-box;
 }
 .linksL1 {
   width: 100%;
@@ -482,4 +483,5 @@ margin-left: 100px;
  position: absolute;
 top: 45%;
 margin-left: 100px;
+box-sizing: border-box;
 }
