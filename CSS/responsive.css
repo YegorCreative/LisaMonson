@@ -61,6 +61,16 @@
         width: 90%;
         
       }
+    
+    .leftSide1 img {
+      width: 100%;
+    }
+    .linksL {
+      top: 15%;
+    }
+    .linksL1 {
+      top: 25%;
+    }
 }
 
 @media screen and (min-width:768px){
@@ -76,6 +86,18 @@
     padding-left: 2em;
     padding-right: 2em;
     text-align: left;
+  }
+  .linksL, .linksL1 {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .linksL {
+    position: relative;
+  }
+  .linksL1 {
+    position: relative;
+    margin-top: 20px;
   }
 }
 @media screen and (max-height: 450px) {
